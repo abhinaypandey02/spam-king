@@ -1,0 +1,23 @@
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    #wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        #spamKingHeading{
+            text-align: center;
+            padding:10px;
+        }
+        #monkeyImage{
+            width: 320px;
+            padding:10px;
+        }
+        #defendingChampionName{
+            text-align: center;
+            padding:10px;
+        }
+    }
+}
